@@ -8,10 +8,8 @@
             var questionsCount = questions.Length;
             int[] answers = GetAnswers(questionsCount);
 
-            //Задание 3
             Console.WriteLine("Введите Ваше имя:");
             var userName = Console.ReadLine();
-            //
 
             while (true)
             {
@@ -32,7 +30,6 @@
 
                 Console.WriteLine($"{userName}, Ваш диагноз: {diagnose}");
 
-                //Задание 4
                 var userConfirm = IsContinue();
 
                 if (userConfirm)
@@ -43,7 +40,6 @@
                 {
                     break;
                 }
-                //
             }
         }
 
@@ -117,7 +113,6 @@
             }
         }
 
-        //Задание 1
         public static void ShowQuestion(string question, int numberQuestion)
         {
             Console.WriteLine("Вопрос номер " + (numberQuestion + 1) + ":");
@@ -130,7 +125,6 @@
             return rightAnswerCount;
         }
 
-        //Задание 2
         public static List<int> MixIndexes(int questionsCount)
         {
             Random random = new Random();
