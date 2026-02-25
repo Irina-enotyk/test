@@ -1,4 +1,4 @@
-﻿namespace GeniyIdiot
+﻿namespace TestChangeBranchs
 {
     internal class Program
     {
